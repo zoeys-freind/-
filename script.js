@@ -20,7 +20,7 @@ weekdaytext.innerHTML = `(${weekday})`
 
 const overhead = document.getElementById("overhead")
 // background-image (resize image to fit overhead (div))
-overhead.style.backgroundImage = `url('/months/${monthName}.jpg')`
+overhead.style.backgroundImage = `url('months/${monthName}.jpg')`
 overhead.style.backgroundSize = "cover"
 overhead.style.backgroundPosition = "center"
 
@@ -65,8 +65,8 @@ function randbttn() {
 }
 
 var pfp = document.getElementById("pfp")
-pfp.src = "/pfp.gif"
-pfp.src = "/pfp.png"
+pfp.src = "pfp.gif"
+pfp.src = "pfp.png"
 
 const ritin = document.getElementById("rit-input")
 
@@ -82,9 +82,9 @@ function spinpfp() {
     if (debounce) {
         debounce = false
         var pfp = document.getElementById("pfp")
-        pfp.src = "/pfp.gif"
+        pfp.src = "pfp.gif"
         setTimeout(function() {
-            pfp.src = "/pfp.png";
+            pfp.src = "pfp.png";
             debounce = true
         }, 2000)
     }
