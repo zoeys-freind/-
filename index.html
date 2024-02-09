@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Replit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Taviraj:wght@300&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <center>
+    <div id="overhead">
+        <h1 id="date">DATE</h1>
+        <h3 id="weekday">WEEKDAY</h3>
+        <input id="moffset" type="number" placeholder="Month offset" min="-12" max="12" value="0">
+    </div>
+    <div id="main">
+        <img id="pfp" src="pfp.png" alt="pfp" onclick="spinpfp()">
+        <h1 id="name">Goober</h1>
+        <h4 id="undername">(@zoeys_freind)</h4>
+        <hr>
+        <h3 class="header">&lt;- Bio -&gt;</h3>
+        <p id="time">- Time zone: CDT (-5) -</p>
+        <p>- I am a furry if you somehow couldn't tell. -</p>
+        <p>- Intermediate in Python programming. -</p>
+        <p>- I kinda know how to draw, I drew my PFP from scratch. -</p>
+        <hr>
+        <h3 class="header">&lt;- Random interactive thingy -&gt;</h3>
+        <button id="rit-bttn" onclick="randbttn()">Click me for a random number. (1-100)</button>
+        <p>The input after this text will save what you input.</p>
+        <input id=rit-input type="text" placeholder="Text here" onkeyup="ritinput()">
+        <hr>
+        <h3 class="header">&lt;- Social links -&gt;</h3>
+        <a href="https://replit.com/@noahwilhoite" target="_blank"><img class="slink" src="/replit.png" alt="Replit logo"></a><br>
+        <a href="https://youtube.com/channel/UCcbKndC3TSfZhyL1mgp1oEw" target="_blank"><img class="slink" src="/youtube.png" alt="Youtube logo"></a><br>
+        <a href="https://roblox.com/users/610862262/profile" target="_blank"><img class="slink" src="/roblox.png" alt="Roblox logo"></a><br>
+        <hr>
+        <span>This document was last updated on February 9th, 2024.</span><br>
+        
+    </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>
