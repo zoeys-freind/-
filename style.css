@@ -102,3 +102,9 @@ input {
     width: 25vh;
     height: 4vh;
 }
+
+a {
+    margin: 30px;
+    margin-top: 0;
+    color: #ffffff;
+}
