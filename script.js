@@ -57,7 +57,7 @@ const hours = {
     "23": "11 PM"
 }
 
-time.innerHTML = `- Time zone: CDT (${hours[UTCTime-6]}) -`
+time.innerHTML = `- Time zone: CDT (${hours[UTCTime-5]}) -`
 
 function randbttn() {
     const btn = document.getElementById("rit-bttn")
