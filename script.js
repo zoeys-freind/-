@@ -82,7 +82,7 @@ function spinpfp() {
     if (debounce) {
         debounce = false
         var pfp = document.getElementById("pfp")
-        pfp.src = "pfp.gif"
+        pfp.src = "protogen-furry.gif"
         setTimeout(function() {
             pfp.src = "pfp.png";
             debounce = true
