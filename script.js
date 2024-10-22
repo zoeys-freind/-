@@ -31,33 +31,33 @@ weekdaytext.style.textShadow = "0 0 5px #000"
 const time = document.getElementById("time")
 
 const hours = {
-    "0": "12 AM",
-    "1": "1 AM",
-    "2": "2 AM",
-    "3": "3 AM",
-    "4": "4 AM",
-    "5": "5 AM",
-    "6": "6 AM",
-    "7": "7 AM",
-    "8": "8 AM",
-    "9": "9 AM",
-    "10": "10 AM",
-    "11": "11 AM",
-    "12": "12 PM",
-    "13": "1 PM",
-    "14": "2 PM",
-    "15": "3 PM",
-    "16": "4 PM",
-    "17": "5 PM",
-    "18": "6 PM",
-    "19": "7 PM",
-    "20": "8 PM",
-    "21": "9 PM",
-    "22": "10 PM",
-    "23": "11 PM"
+    "0": "7 PM",
+    "1": "8 PM",
+    "2": "9 PM",
+    "3": "10 PM",
+    "4": "11 PM",
+    "5": "12 AM",
+    "6": "1 AM",
+    "7": "2 AM",
+    "8": "3 AM",
+    "9": "4 AM",
+    "10": "5 AM",
+    "11": "6 AM",
+    "12": "7 AM",
+    "13": "8 AM",
+    "14": "9 AM",
+    "15": "10 AM",
+    "16": "11 AM",
+    "17": "12 PM",
+    "18": "1 PM",
+    "19": "2 PM",
+    "20": "3 PM",
+    "21": "4 PM",
+    "22": "5 PM",
+    "23": "6 PM"
 }
 
-time.innerHTML = `- Time zone: CDT (${hours[UTCTime-5]}) (for debugging: ${UTCTime-5})-`
+time.innerHTML = `- Time zone: CST (${hours[UTCTime]}) -`
 
 function randbttn() {
     const btn = document.getElementById("rit-bttn")
